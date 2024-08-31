@@ -39,11 +39,11 @@ def decrypt_image(input_image_path, output_image_path, key):
     decrypted_img.save(output_image_path)
     print(f"Decrypted image saved as {output_image_path}")
 
-# Example usage
+
 key = 123  # Simple key for XOR operation
 
-# Encrypt an image
+# Encrypt  image
 encrypt_image('input_image.jpg', 'encrypted_image.jpg', key)
 
-# Decrypt the image
+# Decrypt  image
 decrypt_image('encrypted_image.jpg', 'decrypted_image.jpg', key)
